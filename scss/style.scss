@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2? family = Noto + Serif: ital @ 1 & display = swap');
+
+html {
+    scroll-behavior: smooth;
+}
+  
+#logo {
+    height: 70px;
+}
+  
+div img {
+ width: 300px;
+}
+  
+/*Menu de navegación*/
+
+  
+
+  
+.nav-item :hover{
+    color: rgb(109, 0, 0);
+    transition-duration: 1s;  
+}
+    
+
+header{
+    font-weight: bold;
+    
+}
+
+  /* Carousel*/
+  *inicio*/
+.slide {
+    margin-top: 10px;
+}
+.slide img {
+    width: 80%;
+    height:90%;
+}
+ 
+
+  
+/*Texto*/
+h1 {
+    padding-bottom: 10px;
+    text-align: center;
+    
+}
+  
+h2, h3 {
+    text-align: center;
+    font-size: 30px;
+}
+  
+p {
+    text-align: center;
+    font-size: 18px;
+}
+  
+/*Contacto*/
+
+.formulario-contacto {
+	margin-bottom: 70px;
+	padding-top: 100px;
+}
+
+.boton-formulario {
+	background-color: rgb(109, 0, 0);
+}
+
+
+
+

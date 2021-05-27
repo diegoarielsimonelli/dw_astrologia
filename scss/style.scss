@@ -8,9 +8,7 @@ html {
     height: 70px;
 }
   
-div img {
- width: 300px;
-}
+
   
 /*Menu de navegación*/
 
@@ -30,16 +28,15 @@ header{
 
   /* Carousel*/
   
-.slide {
-    margin-top: 10px;
-}
-.slide img {
-    width: 80%;
-    height:90%;
-}
- 
 
-  
+
+#carouselExampleIndicators {
+    width: 90%;
+    height:90%;
+    margin-top: 10px;
+    margin-left:4rem;
+}
+
 /*Texto*/
 h1 {
     padding-bottom: 10px;
@@ -57,17 +54,33 @@ p {
     font-size: 18px;
 }
   
+/*Tarjetas*/
+#ir-a-astrologiavedica,#ir-a-tarot,#ir-a-palmistry,#ir-a-cursos,#ir-a-astroterapia,#ir-a-sobremi{
+    margin-bottom: 70px;
+	padding-top: 100px;
+}
+
+/*Accordion*/
+#accordionExample{
+    background-color: rgb(109, 0, 0);
+    
+}
+
 /*Contacto*/
 
 .formulario-contacto {
 	margin-bottom: 70px;
 	padding-top: 100px;
+    
+    
 }
 
-.boton-formulario {
-	background-color: rgb(109, 0, 0);
-}
 
+.btn {
+    background-color: rgb(109, 0, 0);
+    color: white;
+    margin-top: 10px;
+  }
 
 
 

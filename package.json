@@ -1,10 +1,11 @@
 {
   "name": "dw_astrologia",
   "version": "1.0.0",
+  "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "build-css": "node-sass --include-path scss scss/style.scss css/style.css",
+    "build-css": "node-sass --include-path scss scss/style.scss css/style.css", 
     "watch-css": "nodemon -e scss -x \"npm run build-css\""
   },
   "repository": {
@@ -20,9 +21,5 @@
   "devDependencies": {
     "node-sass": "^6.0.0",
     "nodemon": "^2.0.7"
-  },
-  "dependencies": {
-    "bootstrap-icons": "^1.5.0"
-  },
-  "description": ""
+  }
 }

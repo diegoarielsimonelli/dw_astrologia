@@ -1,9 +1,7 @@
 @charset "UTF-8";
 @import url("https://fonts.googleapis.com/css2? family = Noto + Serif: ital @ 1 & display = swap");
 html {
-  margin-left: 4.5rem;
-  height: 100%;
-  width: 90%; }
+  scroll-behavior: smooth; }
 
 #logo {
   height: 70px; }
@@ -13,26 +11,24 @@ div img {
 
 /*Menu de navegación*/
 .nav-item :hover {
-  color: #6d0000; }
+  color: #6d0000;
+  transition-duration: 1s; }
 
 header {
-  font-weight: bold;
-  text-align: center; }
+  font-weight: bold; }
 
 /* Carousel*/
-.carousel-inner {
-  margin: 3rem; }
+.slide {
+  margin-top: 10px; }
 
-/*Contacto*/
-.formulario-contacto {
-  margin-bottom: 70px;
-  padding-top: 100px; }
+.slide img {
+  width: 80%;
+  height: 90%; }
 
 /*Texto*/
 h1 {
   padding-bottom: 10px;
-  text-align: center;
-  text-decoration: underline; }
+  text-align: center; }
 
 h2, h3 {
   text-align: center;
@@ -42,4 +38,10 @@ p {
   text-align: center;
   font-size: 18px; }
 
-/*# sourceMappingURL=style.css.map */
+/*Contacto*/
+.formulario-contacto {
+  margin-bottom: 70px;
+  padding-top: 100px; }
+
+.boton-formulario {
+  background-color: #6d0000; }

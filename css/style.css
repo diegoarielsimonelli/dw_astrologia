@@ -13,9 +13,11 @@ header {
 
 /* Carrusel*/
 #carouselExampleIndicators {
-  width: 90%;
-  height: 90%;
-  margin-top: 10px; }
+  max-height: 90%;
+  max-width: 90%;
+  margin-top: 10px;
+  margin-left: auto;
+  margin-right: auto; }
 
 /*Texto*/
 h1 {

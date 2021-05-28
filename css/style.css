@@ -3,23 +3,21 @@
 html {
   scroll-behavior: smooth; }
 
-#logo {
-  height: 70px; }
-
 /*Menu de navegación*/
-.nav-item :hover {
+.nav-link :hover {
   color: #6d0000;
   transition-duration: 1s; }
 
 header {
   font-weight: bold; }
 
-/* Carousel*/
+/* Carrusel*/
 #carouselExampleIndicators {
   width: 90%;
   height: 90%;
   margin-top: 10px;
-  margin-left: 4rem; }
+  margin-left: 3.5rem;
+  margin-right: 3rem; }
 
 /*Texto*/
 h1 {
@@ -32,7 +30,8 @@ h2, h3 {
 
 p {
   text-align: center;
-  font-size: 18px; }
+  font-size: 22px;
+  line-height: 40px; }
 
 /*Tarjetas*/
 #ir-a-astrologiavedica, #ir-a-tarot, #ir-a-palmistry, #ir-a-cursos, #ir-a-astroterapia, #ir-a-sobremi {
@@ -41,8 +40,7 @@ p {
 
 /*Accordion*/
 #accordionExample {
-  background-color: #6d0000;
-  padding-top: 100px; }
+  background-color: #6d0000; }
 
 /*Contacto*/
 .formulario-contacto {

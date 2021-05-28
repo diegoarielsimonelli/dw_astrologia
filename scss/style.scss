@@ -1,12 +1,12 @@
 @import url('https://fonts.googleapis.com/css2? family = Noto + Serif: ital @ 1 & display = swap');
 
+
+
 html {
     scroll-behavior: smooth;
 }
   
-#logo {
-    height: 70px;
-}
+
   
 
   
@@ -15,7 +15,7 @@ html {
   
 
   
-.nav-item :hover{
+.nav-link :hover{
     color: rgb(109, 0, 0);
     transition-duration: 1s;  
 }
@@ -26,7 +26,7 @@ header{
     
 }
 
-  /* Carousel*/
+  /* Carrusel*/
   
 
 
@@ -34,7 +34,8 @@ header{
     width: 90%;
     height:90%;
     margin-top: 10px;
-    margin-left:4rem;
+    margin-left:3.5rem;
+    margin-right: 3rem;
 }
 
 /*Texto*/
@@ -51,7 +52,8 @@ h2, h3 {
   
 p {
     text-align: center;
-    font-size: 18px;
+    font-size: 22px;
+    line-height: 40px;
 }
   
 /*Tarjetas*/

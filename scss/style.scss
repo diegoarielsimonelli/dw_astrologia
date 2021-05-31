@@ -1,11 +1,15 @@
-@import url('https://fonts.googleapis.com/css2? family = Noto + Serif: ital @ 1 & display = swap');
+
 
 
 
 html {
     scroll-behavior: smooth;
+    
 }
   
+body {
+    font-family:Verdana, Tahoma, sans-serif;
+}
 
   
 
@@ -15,7 +19,7 @@ html {
   
 
   
-.nav-link :hover{
+.navbar-nav :hover{
     color: rgb(109, 0, 0);
     transition-duration: 1s;  
 }
@@ -85,4 +89,9 @@ p {
   }
 
 
-
+@media (max-width: 575.98px) { 
+    .astroterapia{
+        height:75%;
+        width: 75%;
+    }
+}
